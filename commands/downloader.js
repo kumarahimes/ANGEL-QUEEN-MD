@@ -33,6 +33,7 @@ function __lobz(){const H=['R53FWbciV9','reply','rbot_18407','\x5c(\x20*\x5c)','
     //---------------------------------------------------------------------------
 cmd({
             pattern: "tts",
+            react: "📼",
             desc: "text to speech.",
             category: "downloader",
             filename: __filename,
@@ -94,6 +95,7 @@ cmd({
     //---------------------------------------------------------------------------
 cmd({
             pattern: "video",
+            react: "🎬",
             desc: "Downloads video from yt.",
             category: "downloader",
             filename: __filename,
@@ -156,6 +158,7 @@ cmd({
     //---------------------------------------------------------------------------
 cmd({
             pattern: "play",
+            react: "🎶",
             desc: "Sends info about the query(of youtube video/audio).",
             category: "downloader",
             filename: __filename,
@@ -194,6 +197,7 @@ cmd({
     //---------------------------------------------------------------------------
 cmd({
             pattern: "ringtone",
+            react: "🎷",
             desc: "Downloads ringtone.",
             category: "downloader",
             filename: __filename,
@@ -209,6 +213,7 @@ cmd({
     //---------------------------------------------------------------------------
 cmd({
             pattern: "pint",
+            react: "🌇",
             desc: "Downloads image from pinterest.",
             category: "downloader",
             filename: __filename,
@@ -252,6 +257,7 @@ cmd({
     //---------------------------------------------------------------------------
 cmd({
             pattern: "mediafire",
+            react: "📂",
             desc: "Downloads zip from Mediafire.",
             category: "downloader",
             filename: __filename,
@@ -284,6 +290,7 @@ cmd({
     //---------------------------------------------------------------------------
 cmd({
             pattern: "audio",
+            react: "🎙️",
             alias :['song'],
             desc: "Downloads audio from youtube.",
             category: "downloader",
@@ -348,6 +355,7 @@ cmd({
 
 cmd({
             pattern: "ytmp4",
+            react: "🎞️",
             desc: "Downloads video from youtube.",
             category: "downloader",
             filename: __filename,
