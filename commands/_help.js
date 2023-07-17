@@ -57,18 +57,18 @@ Secktor.cmd({
                 str +=
                     '```' + `┏┉┉┉┉┉┉┉┉━┉┉┉┉┉┉┉┉⃥
 ┊╭═══════╍════════⃥
-┋┊ʙᴏᴛ ɴᴇᴍᴇ 👩‍🎨 :-𝛥𝛮𝐺𝛯𝐿 𝑄𝑈𝛯𝛯𝛮
-┊┋‍‍ᴜꜱᴇʀ 👩🏻‍💼 :- ${citel.pushName}
-┋┊‍‍ᴛʜᴇᴍᴇ 🕑 :- ${tlang().title}
-┊┋‍‍‍ᴘʀᴇꜰɪx 🧑‍🔧 :- [ ${prefix} ]
-┋┊ᴏᴡɴᴇʀ 🕵️‍♂️ :- ${Config.ownername}
-┊┋‍‍‍ᴅᴇᴡᴠᴇʟᴏᴘᴇʀ 👨🏻‍💻 :-𝚮𝚰𝚳𝚵𝐒𝚮
-┋┊‍‍‍ᴘʟᴜɢɪɴꜱ 🔌 :- ${commands.length}
-┋┊‍‍‍ᴘʟᴜɢɪɴꜱ 🔌 :- ${total}
-┊┋ᴜᴘᴛɪᴍᴇ ⏳ :- ${runtime(process.uptime())}
-┋┊‍‍ᴍᴇᴍᴏʀʏ 💾 :- ${formatp(os.totalmem() - os.freemem())}/${formatp(os.totalmem())}
-┊┋‍‍‍ᴛɪᴍᴇ ⏰ :- ${time}
-┋┊‍‍‍ᴅᴀᴛᴇ 🗓️ :- ${date}
+┋┊ʙᴏᴛ ɴᴇᴍᴇ 👩‍🎨:-𝛥𝛮𝐺𝛯𝐿 𝑄𝑈𝛯𝛯𝛮
+┊┋‍‍ᴜꜱᴇʀ 👩🏻‍💼:- ${citel.pushName}
+┋┊‍‍ᴛʜᴇᴍᴇ 🕑:- ${tlang().title}
+┊┋‍‍‍ᴘʀᴇꜰɪx 🧑‍🔧:- [ ${prefix} ]
+┋┊ᴏᴡɴᴇʀ 🕵️‍♂️:- ${Config.ownername}
+┊┋‍‍‍ᴅᴇᴡᴠᴇʟᴏᴘᴇʀ 👨🏻‍💻:-𝚮𝚰𝚳𝚵𝐒𝚮
+┋┊‍‍‍ᴘʟᴜɢɪɴꜱ 🔌:- ${commands.length}
+┋┊‍‍‍ᴘʟᴜɢɪɴꜱ 🔌:- ${total}
+┊┋ᴜᴘᴛɪᴍᴇ ⏳:- ${runtime(process.uptime())}
+┋┊‍‍ᴍᴇᴍᴏʀʏ 💾:- ${formatp(os.totalmem() - os.freemem())}/${formatp(os.totalmem())}
+┊┋‍‍‍ᴛɪᴍᴇ ⏰:- ${time}
+┋┊‍‍‍ᴅᴀᴛᴇ 🗓️:- ${date}
 │┖┈─┈──┈─◈☪◈─┈─┈─┈─◍
 ┗┉┉┉┉┉┉┉┉━┉┉┉┉┉┉┉┉⃥\n
 `+ '```'
