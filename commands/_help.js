@@ -62,7 +62,7 @@ Secktor.cmd({
 ┋┊‍‍ᴛʜᴇᴍᴇ 🎨:- ${tlang().title}
 ┊┋‍‍‍ᴘʀᴇꜰɪx 🧑‍🔧:- [ ${prefix} ]
 ┋┊ᴏᴡɴᴇʀ 🕵️‍♂️:- ${Config.ownername}
-┊ᴅᴇᴠᴇʟᴏᴘᴇʀ 👨🏻‍💻:-𝚮𝚰𝚳𝚵𝐒𝚮
+┊┋ᴅᴇᴠᴇʟᴏᴘᴇʀ 👨🏻‍💻:-𝚮𝚰𝚳𝚵𝐒𝚮
 ┋┊‍‍‍ᴘʟᴜɢɪɴꜱ 🔌:- ${commands.length}
 ┋┊‍‍‍ᴘʟᴜɢɪɴꜱ 🔌:- ${total}
 ┊┋ᴜᴘᴛɪᴍᴇ ⏳:- ${runtime(process.uptime())}
