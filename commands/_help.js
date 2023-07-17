@@ -82,10 +82,10 @@ Secktor.cmd({
                     for (const plugins of cmds[category]) {
                         str += `┃ ${plugins}\n`
                     }
-                    str += `━━━━━━━━━━━━━━━━✨`
+                    str += `━━━━━━━━━━━━━`
                 }
 
-                str += `\n━━━━━━━━━━━━━━━━✨\n`
+                str += `\n━━━━━━━━━━━━━\n`
                 let buttonMessaged = {
                     image: { url: await botpic() },
                     caption: str,
@@ -109,13 +109,13 @@ Secktor.cmd({
 ╭━━〘 ` + fancytext(Config.ownername.split(' ')[0], 58) + ` 〙━━──⊷`
             str += '```' + `
 ┃ ⛥╭━━━━━━━◷━━━━━╾     
-┃ ⛥│ User: ${citel.pushName}
-┃ ⛥│ Theme: ${tlang().title}
-┃ ⛥│ Prefix: ${prefix}
-┃ ⛥│ Owner: ${Config.ownername}
-┃ ⛥│ Commands: ${commands.length}
-┃ ⛥│ Uptime: ${runtime(process.uptime())}
-┃ ⛥│ Mem: ${formatp(os.totalmem() - os.freemem())}/${formatp(os.totalmem())}
+┃ ⛥│➢ User: ${citel.pushName}
+┃ ⛥│➢ Theme: ${tlang().title}
+┃ ⛥│➢ Prefix: ${prefix}
+┃ ⛥│➢ Owner: ${Config.ownername}
+┃ ⛥│➢ Commands: ${commands.length}
+┃ ⛥│➢ Uptime: ${runtime(process.uptime())}
+┃ ⛥│➢ Mem: ${formatp(os.totalmem() - os.freemem())}/${formatp(os.totalmem())}
 ┃ ⛥│  
 ┃ ⛥╰━━━━━━━━━━━╾
 ╰━━━━━━━━◷━━━━━━━──⊷\n` + '```'
