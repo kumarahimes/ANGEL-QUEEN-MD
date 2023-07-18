@@ -282,18 +282,7 @@ cmd({
             await new Promise((resolve, reject) => {
                 stream.on("error", reject);
                 stream.on("finish", resolve);
-            });                caption: `
-╭───────────────◆
-│⿻ ${tlang().title} 
-│  *Youtube Player* ✨
-│⿻ *Title:*📜 ${anu.title}
-│⿻ *Duration:*📖 ${anu.timestamp}
-│⿻ *Viewers:*🧑‍🤝‍🧑 ${anu.views}
-│⿻ *Uploaded:*📥 ${anu.ago}
-│⿻ *Author:*🎻 ${anu.author.name}
-╰────────────────◆
-⦿ *Url* : ${anu.url}
-`,
+            });                
             let stats = fs.statSync(`./${randomName}`);
             let fileSizeInBytes = stats.size;
             let fileSizeInMegabytes = fileSizeInBytes / (1024 * 1024);
