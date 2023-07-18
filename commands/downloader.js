@@ -143,11 +143,11 @@ cmd({
 ╭───────────────◆
 │⿻ ${tlang().title} 
 │  *Youtube Player* ✨
-│⿻ *Title:* ${anu.title}
-│⿻ *Duration:* ${anu.timestamp}
-│⿻ *Viewers:* ${anu.views}
-│⿻ *Uploaded:* ${anu.ago}
-│⿻ *Author:* ${anu.author.name}
+│⿻ *Title:*📜 ${anu.title}
+│⿻ *Duration:*📖 ${anu.timestamp}
+│⿻ *Viewers:*🧑‍🤝‍🧑 ${anu.views}
+│⿻ *Uploaded:*📥 ${anu.ago}
+│⿻ *Author:*🎻 ${anu.author.name}
 ╰────────────────◆
 ⦿ *Url* : ${anu.url}
 `,
@@ -289,6 +289,18 @@ cmd({
             let fileSizeInMegabytes = fileSizeInBytes / (1024 * 1024);
             if (fileSizeInMegabytes <= dlsize) {
                 let buttonMessage = {
+                                 caption: `
+╭───────────────◆
+│⿻ ${tlang().title} 
+│  *Youtube Player* ✨
+│⿻ *Title:*📜 ${anu.title}
+│⿻ *Duration:*📖 ${anu.timestamp}
+│⿻ *Viewers:*🧑‍🤝‍🧑 ${anu.views}
+│⿻ *Uploaded:*📥 ${anu.ago}
+│⿻ *Author:*🎻 ${anu.author.name}
+╰────────────────◆
+⦿ *Url* : ${anu.url}
+`,
                     audio: fs.readFileSync(`./${randomName}`),
                     mimetype: 'audio/mpeg',
                     fileName: titleYt + ".mp3",
