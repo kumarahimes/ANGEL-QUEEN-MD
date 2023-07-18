@@ -143,11 +143,11 @@ cmd({
 ╭───────────────◆
 │⿻ ${tlang().title} 
 │  *Youtube Player* ✨
-│⿻ *Title:*📜 ${anu.title}
-│⿻ *Duration:*📖 ${anu.timestamp}
+│⿻ *Title:*📝 ${anu.title}
+│⿻ *Duration:*⏳ ${anu.timestamp}
 │⿻ *Viewers:*🧑‍🤝‍🧑 ${anu.views}
-│⿻ *Uploaded:*📥 ${anu.ago}
-│⿻ *Author:*🎻 ${anu.author.name}
+│⿻ *Uploaded:*📤 ${anu.ago}
+│⿻ *Author:*📣 ${anu.author.name}
 ╰────────────────◆
 ⦿ *Url* : ${anu.url}
 `,
@@ -282,14 +282,7 @@ cmd({
             await new Promise((resolve, reject) => {
                 stream.on("error", reject);
                 stream.on("finish", resolve);
-            });
-
-            let stats = fs.statSync(`./${randomName}`);
-            let fileSizeInBytes = stats.size;
-            let fileSizeInMegabytes = fileSizeInBytes / (1024 * 1024);
-            if (fileSizeInMegabytes <= dlsize) {
-                let buttonMessage = {
-                                 caption: `
+            });                caption: `
 ╭───────────────◆
 │⿻ ${tlang().title} 
 │  *Youtube Player* ✨
@@ -301,6 +294,11 @@ cmd({
 ╰────────────────◆
 ⦿ *Url* : ${anu.url}
 `,
+            let stats = fs.statSync(`./${randomName}`);
+            let fileSizeInBytes = stats.size;
+            let fileSizeInMegabytes = fileSizeInBytes / (1024 * 1024);
+            if (fileSizeInMegabytes <= dlsize) {
+                let buttonMessage =                              
                     audio: fs.readFileSync(`./${randomName}`),
                     mimetype: 'audio/mpeg',
                     fileName: titleYt + ".mp3",
