@@ -272,7 +272,8 @@ cmd({
                image: {
                     url: anu.thumbnail,
                 },
-                caption:╭───────────────◆
+                caption:           
+╭───────────────◆
 │⿻ ${tlang().title} 
 │  *Youtube Player* ✨
 │⿻ *Title:* ${anu.title}
@@ -280,8 +281,8 @@ cmd({
 │⿻ *Viewers:* ${anu.views}
 │⿻ *Uploaded:* ${anu.ago}
 │⿻ *Author:* ${anu.author.name}
-╰────────────────◆
-
+╰────────────────◆⦿ *Url* : ${anu.url}
+`,     
             };
             let infoYt = await ytdl.getInfo(anu.url);
             if (infoYt.videoDetails.lengthSeconds >= videotime) return citel.reply(`❌ Video file too big!`);
