@@ -255,9 +255,9 @@ cmd({
     )
     //---------------------------------------------------------------------------
 cmd({
-            pattern: "audio",
+            pattern: "song",
             react: "🎧",
-            alias :['song'],
+            alias :['song,sg'],
             desc: "Downloads audio from youtube.",
             category: "downloader",
             filename: __filename,
