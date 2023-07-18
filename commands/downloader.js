@@ -269,21 +269,7 @@ cmd({
             let anu = search.videos[0];
             const getRandom = (ext) => {
                 return `${Math.floor(Math.random() * 10000)}${ext}`;
-               image: {
-                    url: anu.thumbnail,
-                },
-                caption:           
-╭───────────────◆
-│⿻ ${tlang().title} 
-│  *Youtube Player* ✨
-│⿻ *Title:* ${anu.title}
-│⿻ *Duration:* ${anu.timestamp}
-│⿻ *Viewers:* ${anu.views}
-│⿻ *Uploaded:* ${anu.ago}
-│⿻ *Author:* ${anu.author.name}
-╰────────────────◆⦿ *Url* : ${anu.url}
-`,     
-            };
+               };
             let infoYt = await ytdl.getInfo(anu.url);
             if (infoYt.videoDetails.lengthSeconds >= videotime) return citel.reply(`❌ Video file too big!`);
             let titleYt = infoYt.videoDetails.title;
