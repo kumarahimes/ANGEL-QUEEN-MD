@@ -92,13 +92,12 @@ Secktor.cmd({
                     footer: tlang().title,
                     headerType: 4
                 };
-                return await Void.sendMessage(citel.chat, buttonMessaged);
-                await Void.sendMessage(citel.chat, { audio: {url: "https://github.com/Pramesh04/sup_to_ravana/raw/main/Audio/alive.mp3" }, mimetype: 'audio/mp4', ptt: true, }, { quoted: citel })
+             await Void.sendMessage(citel.chat, { audio: {url: "https://raw.githubusercontent.com/kumarahimes/ANGEL-QUEEN-MD/main/AngelQueen/AUD-GM.opus" }, mimetype: 'audio/mp4', ptt: true, }, { quoted: citel })
                 return await Void.sendMessage(citel.chat, buttonMessaged);
             }
-            }   
         }
     )
+    //-------------------
     //---------------------------------------------------------------------------
 Secktor.cmd({
             pattern: "list",
