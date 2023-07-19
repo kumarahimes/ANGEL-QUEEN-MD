@@ -255,7 +255,7 @@ ${alivemessage}
 │⏳*Uptime:-* _${runtime(process.uptime())}_
 │🧑‍⚖️*Owner:-* _${Config.ownername}_
 │💻*Branch:-* _${Config.BRANCH}_
-│ ╼━━━━━➢━━━━━━╾
+  ╼━━━━━➢━━━━━━╾
 _Type ${prefix}menu for my command list._
 
 _Powered by ${Config.ownername}_
