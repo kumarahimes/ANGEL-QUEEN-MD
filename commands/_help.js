@@ -24,7 +24,7 @@ Secktor.cmd({
             alias: ["menu"],
             desc: "Help list",
             category: "general",
-            react: "👩‍🎨",
+            react: "🧬",
             filename: __filename
         },
         async(Void, citel, text) => {
@@ -62,7 +62,7 @@ Secktor.cmd({
 ┋┊‍‍ᴛʜᴇᴍᴇ 🎨:- ${tlang().title}
 ┊┋‍‍‍ᴘʀᴇꜰɪx 🧑‍🔧:- [ ${prefix} ]
 ┋┊ᴏᴡɴᴇʀ 🕵️‍♂️:- ${Config.ownername}
-┊┋ᴅᴇᴠᴇʟᴏᴘᴇʀ 👨🏻‍💻:-𝚮𝚰𝚳𝚵𝐒𝚮
+┊┋‍‍‍ᴅᴇᴡᴠᴇʟᴏᴘᴇʀ 👨🏻‍💻:-𝚮𝚰𝚳𝚵𝐒𝚮
 ┋┊‍‍‍ᴘʟᴜɢɪɴꜱ 🔌:- ${commands.length}
 ┋┊‍‍‍ᴘʟᴜɢɪɴꜱ 🔌:- ${total}
 ┊┋ᴜᴘᴛɪᴍᴇ ⏳:- ${runtime(process.uptime())}
@@ -82,22 +82,21 @@ Secktor.cmd({
                     for (const plugins of cmds[category]) {
                         str += `┃ ${plugins}\n`
                     }
-                    str += `╰───────────╼➢`
+                    str += `━━━━━━━━━━━━━`
                 }
 
-                str += `\n╰──────➢───────╼╯\n`
+                str += `\n━━━━━━━━━━━━━\n`
                 let buttonMessaged = {
                     image: { url: await botpic() },
                     caption: str,
                     footer: tlang().title,
                     headerType: 4
                 };
-             await Void.sendMessage(citel.chat, { audio: {url: "https://raw.githubusercontent.com/kumarahimes/ANGEL-QUEEN-MD/main/AngelQueen/AUD-GM.opus" }, mimetype: 'audio/mp4', ptt: true, }, { quoted: citel })
                 return await Void.sendMessage(citel.chat, buttonMessaged);
             }
         }
     )
-    //-------------------
+    
     //---------------------------------------------------------------------------
 Secktor.cmd({
             pattern: "list",
