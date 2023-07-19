@@ -308,3 +308,37 @@ cmd({
 
     }
 )
+cmd({
+            pattern: "gm",
+            react: "‍🏖️",
+            category: "general",
+            filename: __filename,
+            desc: "good morning,GM"
+        },
+        
+                },
+                caption: alivtxt,
+                footer: tlang().footer,
+                headerType: 4,
+            };
+            Void.sendMessage(citel.chat, aliveMessage, {
+                quoted: citel,
+            });
+            
+            Void.sendMessage(citel.chat, {
+
+                audio: {
+
+                    url: "https://raw.githubusercontent.com/kumarahimes/ANGEL-QUEEN-MD/main/AngelQueen/AUD-GM.opus",
+
+                },
+
+                mimetype: "audio/mpeg",
+
+                fileName: `good morning.mp3`,
+
+            }, {
+
+                quoted: citel,
+
+            });
