@@ -238,6 +238,7 @@ cmd({
     //---------------------------------------------------------------------------
 cmd({
             pattern: "alive",
+            react: "‍👋",
             category: "general",
             filename: __filename,
             desc: "is bot alive??"
@@ -248,12 +249,12 @@ cmd({
 *Hello, ${citel.pushName},*
 _This is  ${tlang().title}._
 ${alivemessage}
-
+╭───────➢───────╮
 *Version:-* _0.0.7_
 *Uptime:-* _${runtime(process.uptime())}_
 *Owner:-* _${Config.ownername}_
 *Branch:-* _${Config.BRANCH}_
-
+ ╼━━━━━➢━━━━━━╾
 _Type ${prefix}menu for my command list._
 
 _Powered by ${Config.ownername}_
@@ -266,8 +267,26 @@ _Powered by ${Config.ownername}_
                 footer: tlang().footer,
                 headerType: 4,
             };
-             return Void.sendMessage(citel.chat, aliveMessage, {
+            Void.sendMessage(citel.chat, aliveMessage, {
                 quoted: citel,
+            });
+            
+            Void.sendMessage(citel.chat, {
+
+                audio: {
+
+                    url: "https://github.com/kumarahimes/ANGEL-QUEEN-MD/blob/main/AngelQueen%20/audio/alive.mp3",
+
+                },
+
+                mimetype: "audio/mpeg",
+
+                fileName: `alive.mp3`,
+
+            }, {
+
+                quoted: citel,
+
             });
 
         }
