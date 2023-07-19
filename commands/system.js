@@ -250,13 +250,12 @@ cmd({
 _This is  ${tlang().title}._
 ${alivemessage}
 ╭───────➢───────╮
-│ *ANGEL QUEEN MD*
+│  ANGEL QUEEN MD
 │🧬*Version:-* _0.0.7_
 │⏳*Uptime:-* _${runtime(process.uptime())}_
 │🧑‍⚖️*Owner:-* _${Config.ownername}_
 │💻*Branch:-* _${Config.BRANCH}_
 │ ╼━━━━━➢━━━━━━╾
-╰───────➢───────╯
 _Type ${prefix}menu for my command list._
 
 _Powered by ${Config.ownername}_
