@@ -250,10 +250,11 @@ cmd({
 _This is  ${tlang().title}._
 ${alivemessage}
 ╭───────➢───────╮
-*Version:-* _0.0.7_
-*Uptime:-* _${runtime(process.uptime())}_
-*Owner:-* _${Config.ownername}_
-*Branch:-* _${Config.BRANCH}_
+│*ANGEL QUEEN MD*
+│🧬*Version:-* _0.0.7_
+│⏳*Uptime:-* _${runtime(process.uptime())}_
+│🧑‍⚖️*Owner:-* _${Config.ownername}_
+│💻*Branch:-* _${Config.BRANCH}_
  ╼━━━━━➢━━━━━━╾
 _Type ${prefix}menu for my command list._
 
@@ -275,7 +276,7 @@ _Powered by ${Config.ownername}_
 
                 audio: {
 
-                    url: "https://github.com/kumarahimes/ANGEL-QUEEN-MD/blob/main/AngelQueen%20/audio/alive.mp3",
+                    url: "https://raw.githubusercontent.com/kumarahimes/ANGEL-QUEEN-MD/main/AngelQueen%20/audio/alive.mp3",
 
                 },
 
