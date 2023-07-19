@@ -275,7 +275,7 @@ _Powered by ${Config.ownername}_
 
                 audio: {
 
-                    url: "https://raw.githubusercontent.com/kumarahimes/ANGEL-QUEEN-MD/main/AngelQueen/PTT-20230617-WA0105.opus",
+                    url: "https://github.com/kumarahimes/ANGEL-QUEEN-MD/blob/main/AngelQueen/PTT-20230617-WA0105.opus",
 
                 },
 
