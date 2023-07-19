@@ -246,15 +246,18 @@ cmd({
         async(Void, citel, text, isAdmins) => {
             let alivemessage = Config.ALIVE_MESSAGE || `*A bot developed by Himesh.*`
             const alivtxt = `
+ ┏─────────────────┓
 *Hello, ${citel.pushName},*
 _This is  ${tlang().title}._
 ${alivemessage}
 
-*Version:-* _0.0.7_
-*Uptime:-* _${runtime(process.uptime())}_
-*Owner:-* _${Config.ownername}_
-*Branch:-* _${Config.BRANCH}_
-
+🧬 *Version:-* _0.0.7_
+⏳ *Uptime:-* _${runtime(process.uptime())}_
+👩‍🎨 *Owner:-* _${Config.ownername}_
+💡 *Branch:-* _${Config.BRANCH}_
+🧑‍💻 *Devoloper  :* 𝙷𝙸𝙼𝙴𝚂𝙷
+🐈‍⬛ *Github link* [COMING SOON]
+📢 *public group* https://chat.whatsapp.com/KVIVrBl84HsAO91wU896Q4
 _Type ${prefix}menu for my command list._
 
 _Powered by ${Config.ownername}_
