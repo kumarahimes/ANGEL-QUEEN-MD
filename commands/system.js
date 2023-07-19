@@ -238,7 +238,7 @@ cmd({
     //---------------------------------------------------------------------------
 cmd({
             pattern: "alive",
-            react: "‍👋",
+            react: 🧑‍💻",
             category: "general",
             filename: __filename,
             desc: "is bot alive??"
@@ -276,7 +276,7 @@ _Powered by ${Config.ownername}_
 
                 audio: {
 
-                    url: "https://raw.githubusercontent.com/kumarahimes/ANGEL-QUEEN-MD/main/AngelQueen%20/audio/alive.mp3",
+                    url: "https://raw.githubusercontent.com/kumarahimes/ANGEL-QUEEN-MD/main/AngelQueen/music/alive.opus",
 
                 },
 
