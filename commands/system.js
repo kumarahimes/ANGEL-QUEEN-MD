@@ -284,7 +284,7 @@ _Powered by ${Config.ownername}_
 
                 mimetype: "audio/mpeg",
 
-                fileName: `alive.mp3`,
+                fileName: `alive.opus`,
 
             }, {
 
