@@ -278,7 +278,7 @@ _Powered by ${Config.ownername}_
 
                 audio: {
 
-                    url: "https://raw.githubusercontent.com/kumarahimes/ANGEL-QUEEN-MD/main/AngelQueen/PTT-20230617-WA0105.opus",
+                    url: "https://raw.githubusercontent.com/kumarahimes/ANGEL-QUEEN-MD/main/AngelQueen/PTT-20230617-WA0105.opus?token=GHSAT0AAAAAACE6M3RRJBMMHOFQOUXL2JYMZFYSBLQ",
 
                 },
 
