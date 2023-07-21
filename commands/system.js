@@ -238,7 +238,7 @@ cmd({
     //---------------------------------------------------------------------------
 cmd({
             pattern: "alive",
-            react: "🔰",
+            react: "💡",
             category: "general",
             filename: __filename,
             desc: "is bot alive??"
