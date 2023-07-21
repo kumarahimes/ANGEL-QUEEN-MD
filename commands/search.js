@@ -156,8 +156,10 @@ cmd({
 )
     //---------------------------------------------------------------------------
 cmd({
-            pattern: "img",
+            pattern: "image",
+            alias :['img','gimg'],
             category: "search",
+            react: "🎲",
             desc: "Searches Image on Google",
             use: '<text>',
             filename: __filename,
@@ -166,7 +168,7 @@ cmd({
             if (!text) return citel.reply("Provide me a query!")
             if (!text) return reply("Hey bie please tell me for which pic you're looking");
             let name1 = text.split("|")[0]
-            let name2 = text.split("|")[1] || `1`
+            let name2 = text.split("|")[10] || `10`
             citel.reply(`Sending ${name2} image(s) of ${name1} in chat`)
             let nn = name2
             for (let i = 0; i < nn; i++) {
@@ -177,7 +179,7 @@ cmd({
                         image: {
                             url: images,
                         },
-                        caption: `_Sector Image Search_\n*${name1}*`,
+                        caption: `_Queen Angel Image Search_\n*${name1}*`,
                         headerType: 4,
                     };
                     Void.sendMessage(citel.chat, buttonMessage, {
