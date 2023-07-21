@@ -410,8 +410,8 @@ if (text.startsWith("https://youtube.com/shorts/")) {
                     contextInfo: {
                         externalAdReply: {
                             title: titleYt,
-                            body: citel.pushName,
-                            renderLargerThumbnail: true,
+                            body: ꜱᴏɴɢ🧙‍♂️ᴅᴏᴡɴʟᴏᴀᴅ,
+                            renderLargerThumbnail: false,
                             thumbnailUrl: search.all[0].thumbnail,
                             mediaUrl: anu.url,
                             mediaType: 1,
