@@ -344,7 +344,10 @@ if (text.startsWith("https://youtube.com/shorts/")) {
 }
             let search = await yts(textYt);
             let anu = search.videos[0];
-                       let buttonMessaged =},
+                       let buttonMessaged ={
+             image: {
+                    url: anu.thumbnail,
+               },
                 caption: `
 ╭───────➢───────╮
 ┊👩‍🎨 ${tlang().title} 
