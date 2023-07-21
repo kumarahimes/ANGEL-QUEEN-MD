@@ -344,10 +344,7 @@ if (text.startsWith("https://youtube.com/shorts/")) {
 }
             let search = await yts(textYt);
             let anu = search.videos[0];
-                       let buttonMessaged = {
-                image: {
-                    url: anu.thumbnail,
-                },
+                       let buttonMessaged =},
                 caption: `
 ╭───────➢───────╮
 ┊👩‍🎨 ${tlang().title} 
@@ -410,7 +407,7 @@ if (text.startsWith("https://youtube.com/shorts/")) {
                     contextInfo: {
                         externalAdReply: {
                             title: titleYt,
-                            body: ꜱᴏɴɢ🧙‍♂️ᴅᴏᴡɴʟᴏᴀᴅ,
+                            body: citel.pushName,
                             renderLargerThumbnail: false,
                             thumbnailUrl: search.all[0].thumbnail,
                             mediaUrl: anu.url,
