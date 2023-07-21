@@ -3,5 +3,5 @@
 <u>🐈‍⬛💡ANGEL QUEEN MD💡🐈‍⬛</u>
 </p>
 <p align="center">
-<img src="https://telegra.ph/file/c804db3c77a76b20097d7.jpg" 
+<img src="https://telegra.ph/file/40d890854ad129bd008b0.jpg" 
 <width="580" height="360"/>
