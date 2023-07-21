@@ -238,26 +238,23 @@ cmd({
     //---------------------------------------------------------------------------
 cmd({
             pattern: "alive",
-            react: "🧑‍💻",
+            react: "🔰",
             category: "general",
             filename: __filename,
             desc: "is bot alive??"
         },
         async(Void, citel, text, isAdmins) => {
-            let alivemessage = Config.ALIVE_MESSAGE || `*A bot developed by Himesh.*`
+            let alivemessage = Config.ALIVE_MESSAGE || `*A bot developed by SamPandey001.*`
             const alivtxt = `
- ┏─────────────────┓
 *Hello, ${citel.pushName},*
 _This is  ${tlang().title}._
 ${alivemessage}
 
-🧬 *Version:-* _0.0.7_
-⏳ *Uptime:-* _${runtime(process.uptime())}_
-👩‍🎨 *Owner:-* _${Config.ownername}_
-💡 *Branch:-* _${Config.BRANCH}_
-🧑‍💻 *Devoloper  :* 𝙷𝙸𝙼𝙴𝚂𝙷
-🐈‍⬛ *Github link* [COMING SOON]
-📢 *public group* https://chat.whatsapp.com/KVIVrBl84HsAO91wU896Q4
+*Version:-* _0.0.7_
+*Uptime:-* _${runtime(process.uptime())}_
+*Owner:-* _${Config.ownername}_
+*Branch:-* _${Config.BRANCH}_
+
 _Type ${prefix}menu for my command list._
 
 _Powered by ${Config.ownername}_
@@ -274,24 +271,8 @@ _Powered by ${Config.ownername}_
                 quoted: citel,
             });
             
-            Void.sendMessage(citel.chat, {
-
-                audio: {
-
-                    url: "https://raw.githubusercontent.com/kumarahimes/ANGEL-QUEEN-MD/main/AngelQueen/PTT-20230719-WA0068.m4a",
-
-                },
-
-                mimetype: "audio/mpeg",
-
-                fileName: `alive.opus`,
-
-            }, {
-
-                quoted: citel,
-
-            });
-
+            await Void.sendMessage(citel.chat, { audio: {url: "https://raw.githubusercontent.com/kumarahimes/ANGEL-QUEEN-MD/main/AngelQueen/PTT-20230719-WA0068.m4a" }, mimetype: 'audio/mp4', ptt: true, }, { quoted: citel })
+                return await Void.sendMessage(citel.chat, buttonMessaged);
         }
     )
     //---------------------------------------------------------------------------
