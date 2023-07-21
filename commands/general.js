@@ -107,45 +107,6 @@ Void.sendMessage(citel.chat,{image:{url:data.data[0].url}})
 
 //---------------------------------------------------------------------------
 cmd({
-        pattern: "repo",
-        alias: ["git", "sc", "script"],
-        desc: "Sends info about repo.",
-        category: "general",
-        filename: __filename,
-    },
-    async(Void, citel) => {
-        let { data } = await axios.get('https://api.github.com/repos/SamPandey001/Secktor-Md')
-        let cap = `Hey ${citel.pushName}\n
-*⭐ Total Stars:* ${data.stargazers_count} stars
-*🍽️ Forks:* ${data.forks_count} forks
-*🍁 Repo:* citel-x.herokuapp.com/repo
-*Group:* citel-x.herokuapp.com/support
-*Deploy Your Own:*-
-citel-x.herokuapp.com`
-        let buttonMessaged = {
-            image: { url: await botpic() },
-            caption: cap,
-            footer: tlang().footer,
-            headerType: 4,
-            contextInfo: {
-                externalAdReply: {
-                    title: "Secktor-Repo",
-                    body: "Easy to Use",
-                    thumbnail: log0,
-                    mediaType: 4,
-                    mediaUrl: '',
-                    sourceUrl: ``,
-                },
-            },
-        };
-        return await Void.sendMessage(citel.chat, buttonMessaged, {
-            quoted: citel,
-        });
-
-    }
-)
-//---------------------------------------------------------------------------
-cmd({
         pattern: "status",
         alias: ["about"],
         desc: "To check bot status",
