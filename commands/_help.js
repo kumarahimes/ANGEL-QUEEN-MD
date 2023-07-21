@@ -82,10 +82,10 @@ Secktor.cmd({
                     for (const plugins of cmds[category]) {
                         str += `┃ ${plugins}\n`
                     }
-                    str += `━━━━━━━━━━━━━`
+                    str += `──────────────➢`
                 }
 
-                str += `\n━━━━━━━━━━━━━\n`
+                str += `\n┗──────────────────┛\n`
                 let buttonMessaged = {
                     image: { url: await botpic() },
                     caption: str,
