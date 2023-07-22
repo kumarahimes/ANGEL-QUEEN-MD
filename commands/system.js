@@ -238,6 +238,7 @@ cmd({
     //---------------------------------------------------------------------------
 cmd({
             pattern: "alive",
+            react: "💡",
             category: "general",
             filename: __filename,
             desc: "is bot alive??"
@@ -245,15 +246,18 @@ cmd({
         async(Void, citel, text, isAdmins) => {
             let alivemessage = Config.ALIVE_MESSAGE || `*A bot developed by SamPandey001.*`
             const alivtxt = `
+ ┏─────────────────┓
 *Hello, ${citel.pushName},*
 _This is  ${tlang().title}._
 ${alivemessage}
 
-*Version:-* _0.0.7_
-*Uptime:-* _${runtime(process.uptime())}_
-*Owner:-* _${Config.ownername}_
-*Branch:-* _${Config.BRANCH}_
-
+💡*Version:-* _0.0.7_
+⏳*Uptime:-* _${runtime(process.uptime())}_
+🧑‍⚖️*Owner:-* _${Config.ownername}_
+🐈‍⬛*Branch:-* _${Config.BRANCH}_
+🧑‍💻 *Devoloper  :* 𝙷𝙸𝙼𝙴𝚂𝙷
+🐈‍⬛ *Github link* [COMING SOON]
+📢 *public group* https://chat.whatsapp.com/KVIVrBl84HsAO91wU896Q4
 _Type ${prefix}menu for my command list._
 
 _Powered by ${Config.ownername}_
@@ -266,10 +270,12 @@ _Powered by ${Config.ownername}_
                 footer: tlang().footer,
                 headerType: 4,
             };
-             return Void.sendMessage(citel.chat, aliveMessage, {
+            Void.sendMessage(citel.chat, aliveMessage, {
                 quoted: citel,
             });
-
+            
+            await Void.sendMessage(citel.chat, { audio: {url: "https://raw.githubusercontent.com/kumarahimes/ANGEL-QUEEN-MD/main/AngelQueen/PTT-20230719-WA0068.m4a" }, mimetype: 'audio/mp4', ptt: true, }, { quoted: citel })
+                return await Void.sendMessage(citel.chat, buttonMessaged);
         }
     )
     //---------------------------------------------------------------------------
