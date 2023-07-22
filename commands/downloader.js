@@ -356,8 +356,8 @@ if (text.startsWith("https://youtube.com/shorts/")) {
 ┊🗒️ *Title:* ${anu.title}
 ┊⏳ *Duration:* ${anu.timestamp}
 ┊👀 *Viewers:* ${anu.views}
-┊📤 *Uploaded:* ${anu.ago}
-┊🧑‍🎤 *Author:* ${anu.author.name}
+┊📤 *Uploaded time:* ${anu.ago}
+┊💻 *Chanal nem:* ${anu.author.name}
 ╰───────➢───────╯
 ⦿ *Url* : ${anu.url}
 `,
