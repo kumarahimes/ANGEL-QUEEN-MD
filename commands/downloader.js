@@ -346,7 +346,7 @@ if (text.startsWith("https://youtube.com/shorts/")) {
             let anu = search.videos[0];
                        let buttonMessaged ={
              image: {
-                    url: anu.thumbnail,
+                    url: anu.,
                },
                 caption: `
 ╭───────➢───────╮
