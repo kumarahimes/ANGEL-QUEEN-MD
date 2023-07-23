@@ -166,7 +166,7 @@ if (text.startsWith("https://youtube.com/shorts/")) {
                         jpegThumbnail: log0,
                         mimetype: 'video/mp4',
                         fileName: `${titleYt}.mp4`,
-                        caption: ` ⿻ Title : ${titleYt}\n ⿻ ⏳ *Duration:* ${anu.timestamp} ⿻ File Size : ${fileSizeInMegabytes} MB`,
+                        caption: ` ⿻ Title : ${titleYt}\n ⿻ ⏳ *Duration:* ${anu.timestamp} ⿻ 👩‍🎨 ${tlang().title} ⿻ File Size : ${fileSizeInMegabytes} MB`,
                         headerType: 4,
                         contextInfo: {
                             externalAdReply: {
