@@ -128,6 +128,7 @@ if (text.startsWith("https://youtube.com/shorts/")) {
 ┊👀 *Viewers:* ${anu.views}
 ┊📤 *Uploaded:* ${anu.ago}
 ┊🧑‍🎤 *Author:* ${anu.author.name}
+⿻Please note that if the size of the video is too large, we will not be able to provide it to you 📢📥👇
 ╰───────➢────────╯
 ⦿ *Url* : ${anu.url}
 `,
