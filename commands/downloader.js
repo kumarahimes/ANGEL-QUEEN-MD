@@ -120,6 +120,7 @@ if (text.startsWith("https://youtube.com/shorts/")) {
                 },
                 caption: `
 ╭───────➢───────╮
+   𝛥𝛮𝐺𝛯𝐿 𝑄𝑈𝛯𝛯𝛮
 ┊👩‍🎨 ${tlang().title} 
 ┊🚨 *Youtube Player* ✨
 ┊ ╼━━━━━➢━━━━━━╾
@@ -166,9 +167,9 @@ if (text.startsWith("https://youtube.com/shorts/")) {
                         jpegThumbnail: log0,
                         mimetype: 'video/mp4',
                         fileName: `${titleYt}.mp4`,
-                        caption: ` ╭╼──────────────────╾╮image: {
-                    url: anu.thumbnail,
-                }, ⿻ Title : ${titleYt}\n ⿻ ⏳ *Duration:* ${anu.timestamp} ⿻ 👩‍🎨 ${tlang().title} ⿻ File Size : ${fileSizeInMegabytes} MB`,
+                        caption: ` ╭╼──────────────────╾╮
+                        ⿻ Title : ${titleYt}\n ⿻ ⏳ *Duration:* ${anu.timestamp} ⿻ 👩‍🎨 ${tlang().title} ⿻ File Size : ${fileSizeInMegabytes} MB
+                        𝛥𝛮𝐺𝛯𝐿 𝑄𝑈𝛯𝛯𝛮✅`,
                         headerType: 4,
                         contextInfo: {
                             externalAdReply: {
@@ -212,6 +213,7 @@ cmd({
                 },
                 caption: `
 ╭───────➢───────╮
+   𝛥𝛮𝐺𝛯𝐿 𝑄𝑈𝛯𝛯𝛮
 │👩‍🎨⿻ ${tlang().title} 
 │💡 *Youtube Player* ✨
 │ ╼━━━━━➢━━━━━━╾
@@ -353,6 +355,7 @@ if (text.startsWith("https://youtube.com/shorts/")) {
                },
                 caption: `
 ╭───────➢───────╮
+   𝛥𝛮𝐺𝛯𝐿 𝑄𝑈𝛯𝛯𝛮
 ┊👩‍🎨 ${tlang().title} 
 ┊🚨 *Youtube Player* ✨
 ┊ ╼━━━━━➢━━━━━━╾
