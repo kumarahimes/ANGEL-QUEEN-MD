@@ -62,7 +62,7 @@ cmd({
      //---------------------------------------------------------------------------
      cmd({
         pattern: "yts",
-        react: "🎼",
+        react: "🔎",
         desc: "Gives descriptive info of query from youtube..",
         category: "downloader",
         filename: __filename,
@@ -96,7 +96,7 @@ cmd({
     //---------------------------------------------------------------------------
 cmd({
             pattern: "video",
-            react: "🎬",
+            react: "⬇️",
             desc: "Downloads video from yt.",
             category: "downloader",
             filename: __filename,
@@ -119,16 +119,19 @@ if (text.startsWith("https://youtube.com/shorts/")) {
                     url: anu.thumbnail,
                 },
                 caption: `
-╭───────➢───────╮
-┊👩‍🎨 ${tlang().title} 
-┊🚨 *Youtube Player* ✨
-┊ ╼━━━━━➢━━━━━━╾
-┊🗒️ *Title:* ${anu.title}
-┊⏳ *Duration:* ${anu.timestamp}
-┊👀 *Viewers:* ${anu.views}
-┊📤 *Uploaded:* ${anu.ago}
-┊🧑‍🎤 *Author:* ${anu.author.name}
-╰───────➢────────╯
+ ───────➢───────
+ 🎬𝛥𝛮𝐺𝛯𝐿 𝑄𝑈𝛯𝛯𝛮🎬
+┋👩‍🎨 ${tlang().title} 
+┋🚨 *Youtube Player* ✨
+  ╼━━━━━➢━━━━━━╾
+┋🗒️ *Title:* ${anu.title}
+
+┋⏳ *Duration:* ${anu.timestamp}
+┋👀 *Viewers:* ${anu.views}
+┋📤 *Uploaded:* ${anu.ago}
+┋🧑‍🎤 *Author:* ${anu.author.name}
+┋⬇️ Upload To Video 
+ ───────➢────────
 ⦿ *Url* : ${anu.url}
 `,
                 footer: tlang().footer,
@@ -208,16 +211,19 @@ cmd({
                     url: anu.thumbnail,
                 },
                 caption: `
-╭───────➢───────╮
-│👩‍🎨⿻ ${tlang().title} 
-│💡 *Youtube Player* ✨
-│ ╼━━━━━➢━━━━━━╾
-│🗒️⿻ *Title:* ${anu.title}
-│⏳⿻ *Duration:* ${anu.timestamp}
-│👀⿻ *Viewers:* ${anu.views}
-│📤⿻ *Uploaded:* ${anu.ago}
-│🧑‍🎤⿻ *Author:* ${anu.author.name}
-╰───────➢───────╯
+ ───────➢───────
+ 🎧𝛥𝛮𝐺𝛯𝐿 𝑄𝑈𝛯𝛯𝛮🎧
+┋👩‍🎨 ${tlang().title} 
+┋🚨 *Youtube Player* ✨
+  ╼━━━━━➢━━━━━━╾
+┋🗒️ *Title:* ${anu.title}
+
+┋⏳ *Duration:* ${anu.timestamp}
+┋👀 *Viewers:* ${anu.views}
+┋📤 *Uploaded:* ${anu.ago}
+┋🧑‍🎤 *Author:* ${anu.author.name}
+┋⬇️ Upload To Song
+ ───────➢────────
 ⦿ *Url* : ${anu.url}
 `,
                 footer: tlang().footer,
@@ -292,7 +298,7 @@ cmd({
     //---------------------------------------------------------------------------
 cmd({
             pattern: "mediafire",
-            react: "📂",
+            react: "⬇️",
             desc: "Downloads zip from Mediafire.",
             category: "downloader",
             filename: __filename,
@@ -349,16 +355,19 @@ if (text.startsWith("https://youtube.com/shorts/")) {
                     url: anu.thumbnail,
                },
                 caption: `
-╭───────➢───────╮
-┊👩‍🎨 ${tlang().title} 
-┊🚨 *Youtube Player* ✨
-┊ ╼━━━━━➢━━━━━━╾
-┊🗒️ *Title:* ${anu.title}
-┊⏳ *Duration:* ${anu.timestamp}
-┊👀 *Viewers:* ${anu.views}
-┊📤 *Uploaded time:* ${anu.ago}
-┊💻 *Chanal nem:* ${anu.author.name}
-╰───────➢───────╯
+ ───────➢───────
+ 🎧𝛥𝛮𝐺𝛯𝐿 𝑄𝑈𝛯𝛯𝛮🎧
+┋👩‍🎨 ${tlang().title} 
+┋🚨 *Youtube Player* ✨
+  ╼━━━━━➢━━━━━━╾
+┋🗒️ *Title:* ${anu.title}
+
+┋⏳ *Duration:* ${anu.timestamp}
+┋👀 *Viewers:* ${anu.views}
+┋📤 *Uploaded:* ${anu.ago}
+┋🧑‍🎤 *Author:* ${anu.author.name}
+┋⬇️ Upload To Song 
+ ───────➢────────
 ⦿ *Url* : ${anu.url}
 `,
                 footer: tlang().footer,
