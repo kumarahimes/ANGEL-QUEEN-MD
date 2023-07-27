@@ -130,7 +130,7 @@ if (text.startsWith("https://youtube.com/shorts/")) {
 ┋👀 *Viewers:* ${anu.views}
 ┋📤 *Uploaded:* ${anu.ago}
 ┋🧑‍🎤 *Author:* ${anu.author.name}
-┋⬇️*please one time* 
+┋⬇️ upload to video 
  ───────➢────────
 ⦿ *Url* : ${anu.url}
 `,
@@ -223,7 +223,7 @@ cmd({
 ┋👀 *Viewers:* ${anu.views}
 ┋📤 *Uploaded:* ${anu.ago}
 ┋🧑‍🎤 *Author:* ${anu.author.name}
-┋⬇️*please one time* 
+┋⬇️Upload to Song 
  ───────➢────────
 ⦿ *Url* : ${anu.url}
 `,
@@ -367,7 +367,7 @@ if (text.startsWith("https://youtube.com/shorts/")) {
 ┋👀 *Viewers:* ${anu.views}
 ┋📤 *Uploaded:* ${anu.ago}
 ┋🧑‍🎤 *Author:* ${anu.author.name}
-┋⬇️*please one time* 
+┋⬇️ Upload to Song
  ───────➢────────
 ⦿ *Url* : ${anu.url}
 `,
