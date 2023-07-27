@@ -99,6 +99,7 @@ cmd({
             react: "🎬",
             desc: "Downloads video from yt.",
             category: "downloader",
+            react: "⬇️",
             filename: __filename,
             use: '<faded-Alan Walker>',
         },
@@ -120,7 +121,7 @@ if (text.startsWith("https://youtube.com/shorts/")) {
                 },
                 caption: `
  ───────➢───────
- 🎬𝛥𝛮𝐺𝛯𝐿 𝑄𝑈𝛯𝛯𝛮🎬
+  🎬𝛥𝛮𝐺𝛯𝐿 𝑄𝑈𝛯𝛯𝛮🎬
 ┋👩‍🎨 ${tlang().title} 
 ┋🚨 *Youtube Player* ✨
   ╼━━━━━➢━━━━━━╾
@@ -130,7 +131,7 @@ if (text.startsWith("https://youtube.com/shorts/")) {
 ┋👀 *Viewers:* ${anu.views}
 ┋📤 *Uploaded:* ${anu.ago}
 ┋🧑‍🎤 *Author:* ${anu.author.name}
-┋⬇️ upload to video 
+┋⬇️ please one time
  ───────➢────────
 ⦿ *Url* : ${anu.url}
 `,
@@ -168,8 +169,7 @@ if (text.startsWith("https://youtube.com/shorts/")) {
                         jpegThumbnail: log0,
                         mimetype: 'video/mp4',
                         fileName: `${titleYt}.mp4`,
-                        caption: ` ╭╼──────────────────╾╮ ⿻ Title : ${titleYt}\n ⿻ ⏳ *Duration:* ${anu.timestamp} ⿻ File Size : ${fileSizeInMegabytes} MB 
-                                       𝛥𝛮𝐺𝛯𝐿 𝑄𝑈𝛯𝛯𝛮✅`,
+                        caption: ` ⿻ Title : ${titleYt}\n ⿻ File Size : ${fileSizeInMegabytes} MB`,
                         headerType: 4,
                         contextInfo: {
                             externalAdReply: {
@@ -213,7 +213,7 @@ cmd({
                 },
                 caption: `
  ───────➢───────
- 🎧𝛥𝛮𝐺𝛯𝐿 𝑄𝑈𝛯𝛯𝛮🎧
+  🎧𝛥𝛮𝐺𝛯𝐿 𝑄𝑈𝛯𝛯𝛮🎧
 ┋👩‍🎨 ${tlang().title} 
 ┋🚨 *Youtube Player* ✨
   ╼━━━━━➢━━━━━━╾
@@ -223,7 +223,7 @@ cmd({
 ┋👀 *Viewers:* ${anu.views}
 ┋📤 *Uploaded:* ${anu.ago}
 ┋🧑‍🎤 *Author:* ${anu.author.name}
-┋⬇️Upload to Song 
+┋⬇️ please one time 
  ───────➢────────
 ⦿ *Url* : ${anu.url}
 `,
@@ -333,7 +333,7 @@ cmd({
 cmd({
             pattern: "song",
             react: "🎧",
-            alias :["song","🎧"],
+            alias :["song","songs"],
             desc: "Downloads audio from youtube.",
             category: "downloader",
             filename: __filename,
@@ -357,7 +357,7 @@ if (text.startsWith("https://youtube.com/shorts/")) {
                },
                 caption: `
  ───────➢───────
- 🎧𝛥𝛮𝐺𝛯𝐿 𝑄𝑈𝛯𝛯𝛮🎧
+  🎧𝛥𝛮𝐺𝛯𝐿 𝑄𝑈𝛯𝛯𝛮🎧
 ┋👩‍🎨 ${tlang().title} 
 ┋🚨 *Youtube Player* ✨
   ╼━━━━━➢━━━━━━╾
@@ -367,7 +367,7 @@ if (text.startsWith("https://youtube.com/shorts/")) {
 ┋👀 *Viewers:* ${anu.views}
 ┋📤 *Uploaded:* ${anu.ago}
 ┋🧑‍🎤 *Author:* ${anu.author.name}
-┋⬇️ Upload to Song
+┋⬇️ please one time 
  ───────➢────────
 ⦿ *Url* : ${anu.url}
 `,
