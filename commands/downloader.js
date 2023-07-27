@@ -126,7 +126,6 @@ if (text.startsWith("https://youtube.com/shorts/")) {
 ┋🚨 *Youtube Player* ✨
   ╼━━━━━➢━━━━━━╾
 ┋🗒️ *Title:* ${anu.title}
-
 ┋⏳ *Duration:* ${anu.timestamp}
 ┋👀 *Viewers:* ${anu.views}
 ┋📤 *Uploaded:* ${anu.ago}
@@ -218,7 +217,6 @@ cmd({
 ┋🚨 *Youtube Player* ✨
   ╼━━━━━➢━━━━━━╾
 ┋🗒️ *Title:* ${anu.title}
-
 ┋⏳ *Duration:* ${anu.timestamp}
 ┋👀 *Viewers:* ${anu.views}
 ┋📤 *Uploaded:* ${anu.ago}
@@ -362,7 +360,6 @@ if (text.startsWith("https://youtube.com/shorts/")) {
 ┋🚨 *Youtube Player* ✨
   ╼━━━━━➢━━━━━━╾
 ┋🗒️ *Title:* ${anu.title}
-
 ┋⏳ *Duration:* ${anu.timestamp}
 ┋👀 *Viewers:* ${anu.views}
 ┋📤 *Uploaded:* ${anu.ago}
