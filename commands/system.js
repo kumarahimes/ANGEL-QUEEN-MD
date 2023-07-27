@@ -15,6 +15,7 @@ const util = require('util')
 //---------------------------------------------------------------------------
 cmd({
             pattern: "addnote",
+            react: "🕵️‍♀️",
             category: "owner",
             desc: "Adds a note on db.",
             filename: __filename
@@ -31,6 +32,7 @@ cmd({
     //---------------------------------------------------------------------------
 cmd({
             pattern: "qr",
+            react: "♐",
             category: "owner",
             filename: __filename,
             desc: "Sends CitelsVoid Qr code to scan and get your session id."
@@ -72,6 +74,7 @@ cmd({
     //---------------------------------------------------------------------------
 cmd({
             pattern: "unban",
+            react: "🔓",
             category: "misc",
             filename: __filename,
             desc: "Unbans banned user (from using bot)."
@@ -103,6 +106,7 @@ cmd({
     //---------------------------------------------------------------------------
     cmd({
         pattern: "url",
+        react: "🖨️",
         alias : ['createurl'],
         category: "misc",
         filename: __filename,
