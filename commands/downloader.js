@@ -169,7 +169,7 @@ if (text.startsWith("https://youtube.com/shorts/")) {
                         mimetype: 'video/mp4',
                         fileName: `${titleYt}.mp4`,
                         caption: ` ⿻ Title : ${titleYt}\n ⿻ File Size : ${fileSizeInMegabytes} MB`,
-                        headerType: 4,
+                        headerType: 10,
                         contextInfo: {
                             externalAdReply: {
                                 title: titleYt,
@@ -177,8 +177,8 @@ if (text.startsWith("https://youtube.com/shorts/")) {
                                 thumbnail: await getBuffer(search.all[0].thumbnail),
                                 renderLargerThumbnail: true,
                                 mediaType: 2,
-                                mediaUrl: search.all[0].thumbnail,
-                                sourceUrl: search.all[0].thumbnail
+                                mediaUrl: search.all[4].thumbnail,
+                                sourceUrl: search.all[4].thumbnail
                             }
                         }
                     }
