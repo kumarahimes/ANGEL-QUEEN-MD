@@ -131,7 +131,6 @@ if (text.startsWith("https://youtube.com/shorts/")) {
 ┋📤 *Uploaded:* ${anu.ago}
 ┋🧑‍🎤 *Author:* ${anu.author.name}
 ┋⬇️ Upload To Video 
-text: "✅",
  ───────➢────────
 ⦿ *Url* : ${anu.url}
 `,
