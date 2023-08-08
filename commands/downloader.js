@@ -589,6 +589,7 @@ cmd({
 //---------------------------------------------------------------------------
 cmd({
             pattern: "dovideo",
+	    react: "⬇️",
             desc: "Downloads video from yt.",
             category: "downloader",
             filename: __filename,
