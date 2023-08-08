@@ -119,20 +119,17 @@ if (text.startsWith("https://youtube.com/shorts/")) {
                     url: anu.thumbnail,
                 },
                 caption: `
- ───────➢───────
- 🎬𝛥𝛮𝐺𝛯𝐿 𝑄𝑈𝛯𝛯𝛮🎬
-┋👩‍🎨 ${tlang().title} 
-┋🚨 *Youtube Player* ✨
-  ╼━━━━━➢━━━━━━╾
-┋🗒️ *Title:* ${anu.title}
-
-┋⏳ *Duration:* ${anu.timestamp}
-┋👀 *Viewers:* ${anu.views}
-┋📤 *Uploaded:* ${anu.ago}
-┋🧑‍🎤 *Author:* ${anu.author.name}
-┋⬇️ Upload To Video 
- ───────➢────────
-⦿ *Url* : ${anu.url}
+caption: `
+╭───────────────◈
+│⿻ ${tlang().title} 
+│  *ᴀɴɢᴇʟ Qᴜᴇᴇɴ ʏᴛ ᴅᴏᴡɴʟᴏᴀᴅ* 📥
+│⿻ *Title:*🏷️ ${anu.title}
+│⿻ *Duration:*⌚ ${anu.timestamp}
+│⿻ *Viewꜱ:*👀 ${anu.views}
+│⿻ *Uploaded:*⤴️ ${anu.ago}
+│⿻ *Author:*👤 ${anu.author.name}
+│⿻ *Url:*🖇️ ${anu.url}
+╰────────────────◈
 `,
                 footer: tlang().footer,
                 headerType: 4,
@@ -211,20 +208,17 @@ cmd({
                     url: anu.thumbnail,
                 },
                 caption: `
- ───────➢───────
- 🎧𝛥𝛮𝐺𝛯𝐿 𝑄𝑈𝛯𝛯𝛮🎧
-┋👩‍🎨 ${tlang().title} 
-┋🚨 *Youtube Player* ✨
-  ╼━━━━━➢━━━━━━╾
-┋🗒️ *Title:* ${anu.title}
-
-┋⏳ *Duration:* ${anu.timestamp}
-┋👀 *Viewers:* ${anu.views}
-┋📤 *Uploaded:* ${anu.ago}
-┋🧑‍🎤 *Author:* ${anu.author.name}
-┋⬇️ Upload To Song
- ───────➢────────
-⦿ *Url* : ${anu.url}
+caption: `
+╭───────────────◈
+│⿻ ${tlang().title} 
+│  *ᴀɴɢᴇʟ Qᴜᴇᴇɴ ʏᴛ ᴅᴏᴡɴʟᴏᴀᴅ* 📥
+│⿻ *Title:*🏷️ ${anu.title}
+│⿻ *Duration:*⌚ ${anu.timestamp}
+│⿻ *Viewꜱ:*👀 ${anu.views}
+│⿻ *Uploaded:*⤴️ ${anu.ago}
+│⿻ *Author:*👤 ${anu.author.name}
+│⿻ *Url:*🖇️ ${anu.url}
+╰────────────────◈
 `,
                 footer: tlang().footer,
                 headerType: 4,
@@ -355,20 +349,17 @@ if (text.startsWith("https://youtube.com/shorts/")) {
                     url: anu.thumbnail,
                },
                 caption: `
- ───────➢───────
- 🎧𝛥𝛮𝐺𝛯𝐿 𝑄𝑈𝛯𝛯𝛮🎧
-┋👩‍🎨 ${tlang().title} 
-┋🚨 *Youtube Player* ✨
-  ╼━━━━━➢━━━━━━╾
-┋🗒️ *Title:* ${anu.title}
-
-┋⏳ *Duration:* ${anu.timestamp}
-┋👀 *Viewers:* ${anu.views}
-┋📤 *Uploaded:* ${anu.ago}
-┋🧑‍🎤 *Author:* ${anu.author.name}
-┋⬇️ Upload To Song 
- ───────➢────────
-⦿ *Url* : ${anu.url}
+caption: `
+╭───────────────◈
+│⿻ ${tlang().title} 
+│  *ᴀɴɢᴇʟ Qᴜᴇᴇɴ ʏᴛ ᴅᴏᴡɴʟᴏᴀᴅ* 📥
+│⿻ *Title:*🏷️ ${anu.title}
+│⿻ *Duration:*⌚ ${anu.timestamp}
+│⿻ *Viewꜱ:*👀 ${anu.views}
+│⿻ *Uploaded:*⤴️ ${anu.ago}
+│⿻ *Author:*👤 ${anu.author.name}
+│⿻ *Url:*🖇️ ${anu.url}
+╰────────────────◈
 `,
                 footer: tlang().footer,
                 headerType: 4,
