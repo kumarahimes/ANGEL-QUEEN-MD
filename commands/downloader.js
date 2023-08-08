@@ -119,7 +119,6 @@ if (text.startsWith("https://youtube.com/shorts/")) {
                     url: anu.thumbnail,
                 },
                 caption: `
-caption: `
  ───────➢───────
  🎧𝛥𝛮𝐺𝛯𝐿 𝑄𝑈𝛯𝛯𝛮🎧
 ┋👩‍🎨 ${tlang().title} 
@@ -212,7 +211,6 @@ cmd({
                     url: anu.thumbnail,
                 },
                 caption: `
-caption: `
  ───────➢───────
  🎧𝛥𝛮𝐺𝛯𝐿 𝑄𝑈𝛯𝛯𝛮🎧
 ┋👩‍🎨 ${tlang().title} 
@@ -357,7 +355,6 @@ if (text.startsWith("https://youtube.com/shorts/")) {
                     url: anu.thumbnail,
                },
                 caption: `
-caption: `
  ───────➢───────
  🎧𝛥𝛮𝐺𝛯𝐿 𝑄𝑈𝛯𝛯𝛮🎧
 ┋👩‍🎨 ${tlang().title} 
