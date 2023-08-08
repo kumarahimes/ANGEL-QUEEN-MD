@@ -100,7 +100,6 @@ cmd({
             desc: "Downloads video from yt.",
             category: "downloader",
             filename: __filename,
-	    text: "✅",
             use: '<faded-Alan Walker>',
         },
         async(Void, citel, text) => {
@@ -169,7 +168,7 @@ if (text.startsWith("https://youtube.com/shorts/")) {
                         jpegThumbnail: log0,
                         mimetype: 'video/mp4',
                         fileName: `${titleYt}.mp4`,
-                        caption: ` ⿻ Title : ${titleYt}\n ⿻ File Size : ${fileSizeInMegabytes} MB`,
+                        caption: ` ⿻ Title : ${titleYt}\n ⿻ File Size : ${fileSizeInMegabytes} MB'text: "✅",
                         headerType: 10,
                         contextInfo: {
                             externalAdReply: {
