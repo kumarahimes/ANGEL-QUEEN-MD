@@ -809,6 +809,28 @@ cmd({
 
 //---------------------------------------------------------------------------
 cmd({
+        pattern: "jid",
+        desc: "get jid of all user in a group.",
+        category: "owner",
+        filename: __filename,
+    },
+    async(Void, citel, text,{ isCreator }) => {
+      if (citel.quoted)  return citel.reply(citel.quoted.sender)
+	    
+	    
+	  /*  if(!isCreator) return citel.reply(tlang().owner)
+        const groupMetadata = citel.isGroup ? await Void.groupMetadata(citel.chat).catch((e) => {}) : "";
+		const participants = citel.isGroup ? await groupMetadata.participants : "";
+    let textt = `_Here is jid address of all users of_\n *- ${groupMetadata.subject}*\n\n`
+    for (let mem of participants) {
+            textt += `📍 ${mem.id}\n`;
+        }*/
+     else return citel.reply(citel.chat)
+
+    }
+)
+//---------------------------------------------------------------------------
+cmd({
             pattern: "del",
 	    react: "❌",
             alias: ["delete"],
