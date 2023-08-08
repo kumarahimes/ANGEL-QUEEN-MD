@@ -89,53 +89,24 @@ const videolink = fbdl.result[0].url[0].url
 )
 
 cmd({
-
-            pattern: "tt",
-
-            alias: ["tiktok"],
-
-            desc: "tiktok downloader",
-
-            react:"👩‍🎤",
-
-            category: "downloader"
-
+            pattern: "tiktok",
+	react: "💌",
+	    alias :  ['tt','ttdl'],
+            desc: "Downloads Tiktok Videos Via Url.",
+            category: "downloader",
+            filename: __filename,
+            use: '<add tiktok url.>'
         },
 
         async(Void, citel, text) => {
-
-            if (!text) return
-
-const ttdl = await fetchJson(`https://darkalphaxteam-api.cyclic.app/api/download/facebook?url=${text}&apikey=prabath`)
-
-    
-
-const videolink = ttdl.result[0].url[0].url
-
-            citel.reply (`*Hello ${citel.pushName} I Am Finding Your Tiktok Video*`);
-
-       Void.sendMessage(citel.chat, {
-
-                video: {
-
-                    url: videolink ,
-
-                },
-
-                
-
-                 caption: tlang().footer,
-
-            }, {
-
-                quoted: citel,
-
-            });
-
- }
-
-)
-
+ if(!text) return await citel.reply(`*Uhh Please, Provide me tiktok Video Url*\n*_Ex .tiktok https://www.tiktok.com/@dakwahmuezza/video/7150544062221749531_*`);
+ let txt = text ? text.split(" ")[0]:'';
+ if (!/tiktok/.test(txt)) return await citel.reply(`*Uhh Please, Give me Valid Tiktok Video Url!*`);
+ const { status ,thumbnail, video, audio } = await tiktokdl(txt)
+ console.log("url : " , video  ,"\nThumbnail : " , thumbnail ,"\n Audio url : " , audio )
+ if (status) return await Void.sendMessage(citel.chat, {video : {url : video } , caption : Config.caption } , {quoted : citel });
+ else return await citel.reply("Error While Downloading Your Video") 
+})
 
 
             
