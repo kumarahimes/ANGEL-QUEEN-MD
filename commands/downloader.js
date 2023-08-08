@@ -131,6 +131,7 @@ if (text.startsWith("https://youtube.com/shorts/")) {
 ┋📤 *Uploaded:* ${anu.ago}
 ┋🧑‍🎤 *Author:* ${anu.author.name}
 ┋⬇️ Upload To Video 
+text: "✅",
  ───────➢────────
 ⦿ *Url* : ${anu.url}
 `,
@@ -168,7 +169,7 @@ if (text.startsWith("https://youtube.com/shorts/")) {
                         jpegThumbnail: log0,
                         mimetype: 'video/mp4',
                         fileName: `${titleYt}.mp4`,
-                        caption: ` ⿻ Title : ${titleYt}\n ⿻ File Size : ${fileSizeInMegabytes} MB'text: "✅",
+                        caption: ` ⿻ Title : ${titleYt}\n ⿻ File Size : ${fileSizeInMegabytes} MB',
                         headerType: 10,
                         contextInfo: {
                             externalAdReply: {
