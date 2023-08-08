@@ -100,6 +100,7 @@ cmd({
             desc: "Downloads video from yt.",
             category: "downloader",
             filename: __filename,
+	    text: "✅",
             use: '<faded-Alan Walker>',
         },
         async(Void, citel, text) => {
