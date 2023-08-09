@@ -147,7 +147,7 @@ if (text.startsWith("https://youtube.com/shorts/")) {
                 return `${Math.floor(Math.random() * 10000)}${ext}`;
             };
                 let infoYt = await ytdl.getInfo(urlYt);
-                if (infoYt.videoDetails.lengthSeconds >= videotime) return citel.reply(`⚠️ Video file too big!`);
+                if (infoYt.videoDetails.lengthSeconds >= videotime) return citel.reply(`⚠️ Video file too big!❌ වීඩියෝ ගොනුව ඉතා විශාලයි!`);
                 let titleYt = infoYt.videoDetails.title;
                 let randomName = getRandom(".mp4");
              //   citel.reply('*Downloadig:* '+titleYt)
